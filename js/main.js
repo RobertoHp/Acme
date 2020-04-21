@@ -62,7 +62,7 @@ prevB.onclick = () => {
 }
 
 function changePhoto(num) {
-    modalPic.setAttribute('src', "../source/img/gallery_" + num + ".webp");
+    modalPic.setAttribute('src', "source/img/gallery_" + num + ".webp");
     i = num;
 }
 
